@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=18456187)
 # Практична робота "Створення і використання статичних методів"
 Цей репозиторій містить стартовий код для виконання практичної роботи, який містить заготовки двох класів, якідемонструють структуру проекту для виконання завдань "обчислювального характеру"
 <img src="https://github.com/ppc-ntu-khpi/identifiers-types-starter/blob/master/computation.png" width="100%"/>
@@ -44,4 +45,26 @@
 24. Розрахувати поточне (на сьогоднішній день) значення [біоритмів людини](http://uchinfo.com.ua/inform/excel/bioritm.htm) за заданою датою народження 
 
 [![Run on Repl.it](https://repl.it/badge/github/ppc-ntu-khpi/identifiers-types-starter)](https://repl.it/github/ppc-ntu-khpi/identifiers-types-starter) [![Gitter](https://badges.gitter.im/PPC-SE-2020/OOP.svg)](https://gitter.im/PPC-SE-2020/OOP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+# Завдання №10
+## Логіка: 
+
+1) <p>Розкладаємо суму на 3 цифри</p>
+<img src="step1.png" alt="Example Image">
+
+2) <p>Йдемо від останьої цифри</p>
+
+3) <p>Для підбору купюр використаємо жадібний алгоритм</p>
+<img src="step2.png" alt="Example Image">
+
+## Тестування
+Модуль тестування:
+</br>
+![test](TestRes.png)
+
+## Результат
+Тестуємо з двума значеннями: 321 грн та 626 грн
+</br>
+![res1](Result1.png)
+![res2](Result2.png)
 
