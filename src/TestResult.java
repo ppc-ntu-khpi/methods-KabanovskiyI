@@ -6,7 +6,11 @@ public class TestResult {
 
     public static void main(String[] args) {
 
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        int R=626;
+        String[] result = Exercise.Calculate(R);
+        System.out.println("Купюри потрібні для оплати суми: "+R+" грн");
+        for (String str: result){
+            System.out.println(str + "грн");
+        }
     }
 }
